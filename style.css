@@ -14,7 +14,7 @@ html {
  max-width: 600px;
  margin: 0 auto;
  background: red;
- height: 600vh;
+ height: 1000vh;
  background-image: url("background.jpg");
  background-position: center;
  background-size: cover;
