@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.container {
+ max-width: 500px;
+ margin: 0 auto;
+ background: red;
+ height: 100vh;
+ background-image: url("background.jpg");
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ }
+ 
+.profile {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ }
+ 
+.profile> img {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #222;
+	border-radius: 100%;
+	}
+
+.profile> p {
+	font-size: 24px;
+	font-weight: 750;
+	letter-spacing: 3px;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+	}
+	
+.profile> jb {
+	font-size: 19px;
+	font-weight: 750;
+	letter-spacing: 3px;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+	}
+	
+.link {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ background: none;
+ padding: 20px;
+ }
+ 
+.link> a {
+	text-decoration: none;
+	font-color: #ffffff;
+	color: #222;
+	font-size: 17px;
+	text-align: center;
+	background-color: none;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+	margin: 7px 10px;
+	padding: 6px;
+	text-transform: uppercase;
+	font-weight: 450;
+ }
+ 
+.link> a:hover {
+	background-color: azure;
+	font-color: #265073;
+ }
+ 
+.footer {
+ text-align: center;
+ }
+ 
+.footer> i {
+	color: white;
+	font-size: 18px;
+}
