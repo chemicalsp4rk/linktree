@@ -11,10 +11,10 @@ html {
 }
 
 .container {
- max-width: 500px;
+ max-width: auto;
  margin: 0 auto;
  background: red;
- height: 100vh;
+ height: auto;
  background-image: url("background.jpg");
  background-position: center;
  background-size: cover;
